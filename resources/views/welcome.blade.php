@@ -36,19 +36,17 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">About</a></li>
+            <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="/about">About</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Continents <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Afrika</a></li>
-                <li><a href="#">Asia</a></li>
-                <li><a href="#">Europe</a></li>
+                <li><a href="#">Afro-Eurasia</a></li>
                 <li><a href="#">America</a></li>
                 <li><a href="#">Australia/Oceania</a></li>
               </ul>
             </li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="/contact">Contact Us</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
@@ -68,7 +66,61 @@
 
 
 
-    <h1>Welcome, friends! Please, share your experience with us!</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <div class="jumbotron">
+             <h1>Welcome, guys! Please, share your travelling experience with us!</h1>
+              <p class="lead">Probably, each of us is at least a little traveler.
+                 This site was created specially for you to learn about the best places in the world, that everybody should visit.
+               Do not forget to share your travel experience as well.</p>
+               <p><a class="btn btn-primary btn-lg" href="#" role="button">Register</a></p>
+                </div>
+        </div>
+      </div>
+
+        <div class="row">
+          <div class="col-md-8">
+            <div class="post">
+              <h3>Post Title</h3>
+              <p>....</p>
+              <a href="#" class="btn btn-primary"> Read More</a>
+            </div>
+
+         <hr>
+
+            <div class="post">
+              <h3>Post Title</h3>
+              <p>....</p>
+              <a href="#" class="btn btn-primary"> Read More</a>
+            </div>
+
+          <hr>
+
+            <div class="post">
+              <h3>Post Title</h3>
+              <p>....</p>
+              <a href="#" class="btn btn-primary"> Read More</a>
+            </div>
+
+          <hr>
+
+            <div class="post">
+              <h3>Post Title</h3>
+              <p>....</p>
+              <a href="#" class="btn btn-primary"> Read More</a>
+            </div>
+
+          </div>
+
+          <div class="col-md-3 col-md-offset-1">
+          <h2> TOP Writers </h2>
+           </div>
+
+
+      </div>
+
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
