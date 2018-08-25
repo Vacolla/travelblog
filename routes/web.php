@@ -16,3 +16,10 @@ Route::get('contact', 'PagesController@getContact');
 Route::get('about', 'PagesController@getAbout');
 
 Route::get('/', 'PagesController@getIndex');
+
+Route::get('afro-eurasia', 'PagesController@getAfro');
+
+Route::get('america', 'PagesController@getAmerica');
+
+Route::get('australia', 'PagesController@getAustralia');
+
