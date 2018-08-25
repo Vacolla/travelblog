@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace App\Http\Controllers;
 
@@ -6,14 +6,34 @@ namespace App\Http\Controllers;
 class PagesController extends Controller {
 
   public function getIndex() {
+      return view('pages/welcome');
 }
 
 public function getAbout() {
-  
+  $first = 'Gļebs';
+  $last = 'Veprevs';
+
+  $fullname = $first . " " . $last;
+  $email = 'veprevs2@inbox.lv';
+  $data = [];
+  $data['email'] = $email;
+  $data['fullname'] = $fullname;
+  return view('pages/about')-> withData($data);
 }
 
 public function getContact() {
-  
+  return view ('pages/contact');
 }
 
+public function getAfro() {
+return view ('pages/afro-eurasia');
+}
+
+public function getAmerica() {
+  return view ('pages/america');
+}
+
+public function getAustralia() {
+  return view ('pages/australia');
+}
 }
